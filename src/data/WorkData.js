@@ -1,59 +1,60 @@
 export const Works = [
     {
         id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
+        name:"Maatri - Your9MonthsMatter",
+        description:"A web application to help prevent birth abnormalities and prevent birth defects.",
+        tags:["react","mongodb","nodejs"],
         
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        demo:"",
+        github:"https://github.com/GautamChopra467/Project-Maa"
     },
     {
         id:2,
-        name:"Job listing website",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["react","sass"],
+        name:"AMBARAM - E-Commerce Website",
+        description:"Ambaram is an e-commerce platform that offers a compelling user experience across all devices.",
+        tags:["html","css","js"],
         
-        demo:"http://react-job-listing-website.codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/react-job-listing-website"
-        
+        demo:"https://gautamchopra467.github.io/GautamChopra467-Ambaram.github.io/",
+        github:"https://github.com/GautamChopra467/GautamChopra467-Ambaram.github.io"
     },
     {
         id:3,
-        name:"Dev.to Clone",
-        description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-        tags:["react","api","sass"],
+        name:"Facebook Page Connector",
+        description:"A website built on Facebook Graph API that allows users to manage all of their Facebook pages.",
+        tags:["react","GraphAPI", "css"],
         
-        demo:"http://devto-clone-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/devto-clone"
+        demo:"",
+        github:"https://github.com/GautamChopra467/facebook-connector-page"
+        
     },
     {
         id:4,
-        name:"Sidebar Menu",
-        description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-        tags:["react","styledComponents","react-router"],
+        name:"Evotech 5.0 Website",
+        description:"Hackathon website provides information about BVCOE's CSE department's flagship event.",
+        tags:["html","css"],
         
-        demo:"https://react-sidebar.vercel.app/",
-        github:"https://github.com/codebucks27/react-sidebar"
+        demo:"https://gautamchopra467.github.io/Evotech5.0/",
+        github:"https://github.com/GautamChopra467/Evotech5.0"
        
-    },{
+    },
+    {
         id:5,
-        name:"Todo App(React + Redux)",
-        description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-        tags:["react","redux","framer-motion"],
+        name:"Tic-Tac-Toe Game",
+        description:"The project provides a a user-friendly graphical interface and engaging gaming experience.",
+        tags:["react","css"],
         
-        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-Redux-Todo-App"
+        demo:"https://gautamchopra467.github.io/Tic-Tac-Toe/",
+        github:"https://github.com/GautamChopra467/Tic-Tac-Toe"
         
     },
     {
         id:6,
-        name:"Responsive Navigation Menu",
-        description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags:["react","react-router","css"],
+        name:"Cafe Coffee Bar",
+        description:"A mimic of an actual coffee shop website, providing a great customer experience and great UI design.",
+        tags:["html", "css"],
         
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
+        demo:"https://gautamchopra467.github.io/Cafe-Coffee-Bar.github.io/",
+        github:"https://github.com/GautamChopra467/Cafe-Coffee-Bar.github.io"
         
     },
     
