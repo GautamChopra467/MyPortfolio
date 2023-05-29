@@ -25,7 +25,8 @@ const App = () => {
           <Switch location={location} key={location.pathname}>
             <Route exact path="/" component={MainPage} />
             <Route exact path="/about" component={AboutPage} />
-            <Route exact path="/blog" component={BlogPage} />
+            {/* <Route exact path="/blog" component={BlogPage} /> */}
+            <Route exact path="/blog" component={MainPage} />
             <Route exact path="/work" component={WorkPage} />
             <Route exact path="/skills" component={SkillsPage} />
           </Switch>

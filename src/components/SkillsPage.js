@@ -17,6 +17,17 @@ const Box = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+
+  @media (max-width: 50em) {
+    flex-direction: column;
+    height: auto;
+    padding-top: 9rem;
+    grid-gap: 3.5rem;
+  }
+
+  @media (max-width: 30em) {
+    padding-left: 20px;
+  }
 `;
 
 const Main = styled.div`
@@ -26,7 +37,7 @@ const Main = styled.div`
   padding: 2rem;
   width: 30vw;
   height: 60vh;
-  z-index: 3;
+  z-index: 2;
   line-height: 1.5;
   cursor: pointer;
 
@@ -38,6 +49,17 @@ const Main = styled.div`
   &:hover {
     color: ${(props) => props.theme.body};
     background-color: ${(props) => props.theme.text};
+  }
+
+  @media (max-width: 60em) {
+    width: 33vw;
+    padding: 1.2rem;
+  }
+
+  @media (max-width: 50em) {
+    width: 70vw;
+    height: auto;
+    padding: 1rem;
   }
 `;
 
